@@ -1,0 +1,60 @@
+.table-container {
+    padding: 20px;
+  }
+  
+  .table-header, .table-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+  }
+  
+  .table-row {
+    display: flex;
+    /* flex: 3; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+  }
+  
+  .table-cell {
+    flex: 1;
+    /* border: 0px solid #ccc; */
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
+  .table-header .table-row {
+    background-color: #f4f4f4;
+    padding: 5px 0px;
+  }
+  
+  .table-cell img {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .table-cell a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .table-cell i {
+    margin: 0 5px;
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .links{
+    gap: 5px;
+  }
+  .links a{
+
+    color: grey;
+  }
+  

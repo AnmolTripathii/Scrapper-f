@@ -1,0 +1,20 @@
+/* Breadcrumbs.css */
+.breadcrumb {
+    list-style: none;
+    display: flex;
+  }
+  
+  .breadcrumb li {
+    margin-right: 0.5em;
+    
+  }
+  .breadcrumb li a{
+    color: black;
+  }
+  
+  .breadcrumb li + li:before {
+    content: '>';
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  
