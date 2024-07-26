@@ -10,7 +10,7 @@ const WebContextProvider=(props)=>{
     useEffect(()=>{
         const fetchData = async () => {
             try {
-              const response = await axios.get('/api/v1/webs/allwebs');
+              const response = await axios.get('https://scrapper-back-pied.vercel.app/api/v1/webs/allwebs');
               setAllGenerate(response.data.data); 
             } catch (error) {
               console.error('Error fetching data:', error);

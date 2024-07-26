@@ -9,7 +9,7 @@ function SearchControl() {
 
   const deletegen = async () => {
     try {
-      const response = await axios.post('/api/v1/webs/delete', {
+      const response = await axios.post('https://scrapper-back-pied.vercel.app/api/v1/webs/delete', {
         ids: selectIds
       });
       setPopupMessage(response.data.message);

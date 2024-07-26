@@ -15,7 +15,7 @@ function SearchBar() {
     }
 
     try {
-      const response = await axios.post('/api/v1/webs/generate', { url });
+      const response = await axios.post('https://scrapper-back-pied.vercel.app/api/v1/webs/generate', { url });
       setPopupMessage(response.data.message);
     } catch (error) {
       console.error('Error fetching data:', error);
